@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Permission Check"
 include(":app")
- 
+include(":core:percheck")

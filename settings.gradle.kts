@@ -19,6 +19,9 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Permission Check"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
+rootProject.name = "PermissionCheck"
+
 include(":app")
-include(":core:percheck")
+include(":core:perm")
